@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dee2c1b9-cba6-4f56-a9ec-dc4798f002b3" name="Default" comment="" />
+    <list default="true" id="dee2c1b9-cba6-4f56-a9ec-dc4798f002b3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,8 +80,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="595" />
-    <option name="y" value="31" />
+    <option name="x" value="191" />
+    <option name="y" value="24" />
     <option name="width" value="1576" />
     <option name="height" value="964" />
   </component>
@@ -94,51 +96,6 @@
           <expand>
             <path>
               <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
               <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -249,10 +206,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4114000" />
+    <option name="totallyTimeSpent" value="4415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="707" y="38" width="1576" height="964" extended-state="1" />
+    <frame x="191" y="24" width="1576" height="964" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -266,10 +223,10 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.40121213" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" weight="0.3292978" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5551515" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.5551515" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1616095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29023746" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -407,6 +364,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdown.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-981" />
+          <second_editor />
         </state>
       </provider>
     </entry>
