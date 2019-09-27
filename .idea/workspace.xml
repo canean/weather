@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dee2c1b9-cba6-4f56-a9ec-dc4798f002b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dee2c1b9-cba6-4f56-a9ec-dc4798f002b3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -77,8 +78,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="817" />
-    <option name="y" value="30" />
+    <option name="x" value="595" />
+    <option name="y" value="31" />
     <option name="width" value="1576" />
     <option name="height" value="964" />
   </component>
@@ -248,10 +249,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2337000" />
+    <option name="totallyTimeSpent" value="4114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="817" y="30" width="1576" height="964" extended-state="0" />
+    <frame x="707" y="38" width="1576" height="964" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -265,7 +266,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.40121213" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" weight="0.3292978" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4690909" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5551515" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1616095" />
