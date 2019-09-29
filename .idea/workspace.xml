@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dee2c1b9-cba6-4f56-a9ec-dc4798f002b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/config/RestConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/controller/WeatherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/service/WeatherDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/WeatherDataServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/Hours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/WeatherDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/WeatherResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/RedisUtilsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/WeatherDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/WeatherDataServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,11 +19,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="WeatherApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/WeatherApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="WeatherController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/controller/WeatherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="308">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,14 +45,67 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="WeatherDataServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/WeatherDataServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="247">
+              <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
               <folding>
                 <element signature="method#getDataByCityId#0;class#WeatherDataServiceImpl#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisUtilsServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/RedisUtilsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#expire#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#remove#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#removePattern#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#remove#1;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#hmSet#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#hmGet#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#hmset#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#lPush#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#lSize#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#lRange#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#add#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#setMembers#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#zAdd#0;class#RedisUtilsServiceImpl#0" />
+                <element signature="method#rangeByScore#0;class#RedisUtilsServiceImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisTemplate.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="293" column="57" selection-start-line="293" selection-start-column="50" selection-end-line="293" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -63,6 +123,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Id</find>
+      <find>CONNECT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,7 +135,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/WeatherApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/WeatherResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/service/WeatherDataService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/config/RestConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/Index.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/Data.java" />
@@ -82,8 +142,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/WeatherDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/Hours.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/Weather.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/WeatherDataServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/controller/WeatherController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/RedisUtilsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/WeatherDataServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -109,8 +172,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="541" />
+    <option name="y" value="86" />
     <option name="width" value="1126" />
     <option name="height" value="957" />
   </component>
@@ -179,11 +242,7 @@
               <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="weather" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,7 +360,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22941000" />
+    <option name="totallyTimeSpent" value="32602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,7 +372,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="10" />
@@ -326,18 +385,18 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
-      <window_info active="true" anchor="bottom" id="Debug" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.32279173" />
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32885087" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32885087" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32885087" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.34133044" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.4514722" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32885087" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.32885087" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29217604" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.23614073" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36641222" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.16311301" />
       <window_info anchor="right" id="Bean Validation" order="0" />
       <window_info id="Web" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -430,18 +489,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/WeatherDataServiceImpl.java</url>
-          <line>44</line>
+          <line>40</line>
           <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/WeatherDataServiceImpl.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -526,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/config/RestConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -567,18 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/WeatherApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/vo/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -808,20 +835,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="149" column="9" lean-forward="true" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/WeatherApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="293" column="57" selection-start-line="293" selection-start-column="50" selection-end-line="293" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/RedisUtilsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#expire#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#remove#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#removePattern#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#remove#1;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#hmSet#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#hmGet#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#hmset#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#lPush#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#lSize#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#lRange#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#add#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#setMembers#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#zAdd#0;class#RedisUtilsServiceImpl#0" />
+            <element signature="method#rangeByScore#0;class#RedisUtilsServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/controller/WeatherController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="308">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cloud/weather/service/impl/WeatherDataServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="247">
+          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
           <folding>
             <element signature="method#getDataByCityId#0;class#WeatherDataServiceImpl#0" />
           </folding>
